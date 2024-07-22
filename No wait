@@ -1,0 +1,11 @@
+local button = script.Parent
+
+local function onButtonClick()
+    print("Button clicked! Waiting for 5 seconds...")
+    wait(0) -- Wait for 0 seconds
+    print("Action performed after waiting.")
+    -- Add the desired action here
+end
+
+button.MouseButton1Click:Connect
+-- This made from AI proggaming
